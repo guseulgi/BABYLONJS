@@ -28,7 +28,7 @@ const onRender = (scene) => {
 };
 
 export default () => (
-  <div>
+  <>
     <Secene antialias onSceneReady={onSceneReady} onRender={onRender} id="my-canvas" />
-  </div>
+  </>
 );
