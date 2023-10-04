@@ -6,7 +6,6 @@ const DefaultScale = new Vector3(1, 1, 1);
 const BiggerScale = new Vector3(1.25, 1.25, 1.25);
 
 const SpinningBox = (props) => {
-  // access Babylon scene objects with same React hook as regular DOM elements
   const boxRef = useRef(null);
 
   const [clicked, setClicked] = useState(false);
@@ -19,7 +18,6 @@ const SpinningBox = (props) => {
     boxRef
   );
 
-  // This will rotate the box on every Babylon frame.
   const rpm = 5;
   useBeforeRender((scene) => {
     if (boxRef.current) {

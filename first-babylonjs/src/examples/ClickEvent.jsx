@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { Engine, PhysicsImpostor, Scene } from "react-babylonjs";
-import { Vector3, Color3, CannonJSPlugin } from "@babylonjs/core";
+import { Vector3 } from "@babylonjs/core";
 
 export default () => {
   let sphereRef = useRef();

@@ -1,6 +1,5 @@
 import { FreeCamera, Vector3, HemisphericLight, MeshBuilder } from "@babylonjs/core";
 import Secene from "./Secene";
-import SceneComponent from "babylonjs-hook";
 
 let box;
 

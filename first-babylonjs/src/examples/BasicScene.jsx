@@ -1,8 +1,7 @@
 import { Engine, Scene } from "react-babylonjs";
 import { Vector3 } from "@babylonjs/core";
-import { MeshBuilder } from "@babylonjs/core";
 
-export default ({ children }) => (
+export default () => (
   <div style={{ flex: 1, display: "flex" }}>
     <Engine
       antialias

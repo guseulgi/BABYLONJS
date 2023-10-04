@@ -4,7 +4,6 @@ import { Engine, Scene } from "@babylonjs/core";
 export default ({ antialias, engineOptions, adaptToDeviceRatio, sceneOptions, onRender, onSceneReady, ...rest }) => {
   const reactCanvas = useRef(null);
 
-  // set up basic engine and scene
   useEffect(() => {
     const { current: canvas } = reactCanvas;
 
