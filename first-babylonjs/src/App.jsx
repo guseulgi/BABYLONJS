@@ -1,9 +1,9 @@
-import { useState } from "react";
 import "./App.css";
 import MostFirst from "./examples/MostFirst";
 import BabylonReactEx from "./examples/BabylonReactEx";
 import ClickEvent from "./examples/ClickEvent";
 import BasicScene from "./examples/BasicScene";
+import Shadows from "./examples/Shadows";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       {/* <MostFirst /> */}
       {/* <BabylonReactEx /> */}
       {/* <ClickEvent /> */}
-      <BasicScene />
+      {/* <BasicScene /> */}
+      <Shadows />
     </>
   );
 }
